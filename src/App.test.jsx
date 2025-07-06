@@ -5,7 +5,7 @@ import App from './App'
 describe('App', () => {
   it('renders Vite + React heading', () => {
     render(<App />)
-    const heading = screen.getByRole('heading', { name: /vite \+ react/i })
+    const heading = screen.getByRole('heading', { name: /vite \+ react ---/i })
     expect(heading).toBeInTheDocument()
   })
 
